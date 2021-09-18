@@ -1,0 +1,12 @@
+<template>
+<div class="report_card card card-body">
+    <p class="count">{{countOfOperations}}</p>
+    <p class="name">{{operationType}}</p>
+    <!-- <button [routerLink]="['/navigator']" [queryParams]="{tab: tabNo}" class="seeall_btn btn btn-primary">See all</button> -->
+</div>
+
+</template>
+
+<script>
+export default {}
+</script>
